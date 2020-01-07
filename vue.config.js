@@ -8,9 +8,10 @@ module.exports = {
 				target: 'http://localhost:8081',
 				changeOrigin: true,
 				pathRewrite: {
-					'^/logn': '',
+					'^/login': '/login',
 				},
-			}
+			},
 		},
+		
 	},
 }
